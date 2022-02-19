@@ -26,3 +26,9 @@ worker.AddHandler("handler", handler)
 // start the worker
 worker.Start()
 ```
+
+## Run example
+```
+go mod download
+go run example/main.go
+```
